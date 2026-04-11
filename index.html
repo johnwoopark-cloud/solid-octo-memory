@@ -2,32 +2,36 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>지상파 시청률 TOP 20</title>
+    <title>📺 지상파 시청률 TOP 20</title>
     <style>
-        body { font-family: sans-serif; padding: 20px; background: #f0f2f5; }
-        .box { max-width: 800px; margin: auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        h1 { border-bottom: 2px solid #007bff; padding-bottom: 10px; color: #1a1a1a; }
-        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-        th, td { border: 1px solid #eee; padding: 12px; text-align: left; }
-        th { background: #007bff; color: white; }
-        tr:nth-child(even) { background: #f8f9fa; }
-        .update { text-align: right; color: #666; font-size: 0.85em; margin-bottom: 10px; }
+        body { font-family: 'Pretendard', sans-serif; padding: 20px; background: #f4f6f9; color: #333; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); }
+        h1 { border-bottom: 3px solid #007bff; padding-bottom: 15px; font-size: 1.5rem; }
+        .update-info { text-align: right; font-size: 0.85rem; color: #888; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #f8f9fa; font-weight: 600; color: #555; }
+        tr:hover { background: #fdfdfd; }
+        .rank { font-weight: bold; color: #007bff; width: 50px; }
+        .rate { font-weight: bold; color: #e74c3c; text-align: right; }
     </style>
 </head>
 <body>
-    <div class="box">
+    <div class="container">
         <h1>📺 지상파 시청률 순위</h1>
-        <p class="update">업데이트: <span id="update-time">-</span></p>
+        <p class="update-info">최근 업데이트: <span id="update-time">-</span></p>
         <table>
             <thead>
                 <tr>
                     <th>순위</th>
                     <th>채널</th>
                     <th>프로그램</th>
-                    <th>시청률</th>
+                    <th style="text-align:right;">시청률</th>
                 </tr>
             </thead>
-            <tbody id="list"></tbody>
+            <tbody id="content">
+                <tr><td colspan="4" style="text-align:center; padding:50px;">데이터를 불러오는 중입니다...</td></tr>
+            </tbody>
         </table>
     </div>
 
@@ -36,19 +40,26 @@
             .then(res => res.json())
             .then(data => {
                 document.getElementById('update-time').innerText = data.date;
-                const list = document.getElementById('list');
+                const tbody = document.getElementById('content');
+                tbody.innerHTML = '';
+
                 if (!data.terrestrial || data.terrestrial.length === 0) {
-                    list.innerHTML = '<tr><td colspan="4" style="text-align:center;">데이터를 불러오는 중이거나 아직 업데이트되지 않았습니다.</td></tr>';
+                    tbody.innerHTML = '<tr><td colspan="4" style="text-align:center; padding:50px;">표시할 데이터가 없습니다. 잠시 후 다시 시도해 주세요.</td></tr>';
                     return;
                 }
+
                 data.terrestrial.forEach(item => {
-                    list.innerHTML += `<tr>
-                        <td>${item.rank}</td>
-                        <td>${item.channel}</td>
-                        <td>${item.program}</td>
-                        <td><b>${item.rate}%</b></td>
-                    </tr>`;
+                    tbody.innerHTML += `
+                        <tr>
+                            <td class="rank">${item.rank}</td>
+                            <td>${item.channel}</td>
+                            <td>${item.program}</td>
+                            <td class="rate">${item.rate}%</td>
+                        </tr>`;
                 });
+            })
+            .catch(err => {
+                document.getElementById('content').innerHTML = '<tr><td colspan="4" style="text-align:center; color:red;">데이터 파일을 찾을 수 없습니다. 스크립트 실행을 확인하세요.</td></tr>';
             });
     </script>
 </body>
