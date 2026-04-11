@@ -2,89 +2,54 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily TV Ratings Dashboard</title>
+    <title>지상파 시청률 TOP 20</title>
     <style>
-        body { font-family: 'Pretendard', sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f7f9; }
-        h1 { color: #333; border-bottom: 2px solid #333; padding-bottom: 10px; }
-        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        th { background-color: #007bff; color: white; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
-        .update-time { font-size: 0.9em; color: #666; text-align: right; }
-        .category-tab { margin-bottom: 15px; }
-        button { padding: 10px 15px; cursor: pointer; border: none; background: #eee; margin-right: 5px; border-radius: 4px; }
-        button.active { background: #333; color: white; }
+        body { font-family: sans-serif; padding: 20px; background: #f0f2f5; }
+        .box { max-width: 800px; margin: auto; background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { border-bottom: 2px solid #007bff; padding-bottom: 10px; color: #1a1a1a; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #eee; padding: 12px; text-align: left; }
+        th { background: #007bff; color: white; }
+        tr:nth-child(even) { background: #f8f9fa; }
+        .update { text-align: right; color: #666; font-size: 0.85em; margin-bottom: 10px; }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <h1>📺 일일 시청률 TOP 20</h1>
-    <p class="update-time">최근 업데이트: <span id="last-update">-</span></p>
-
-    <div class="category-tab">
-        <button onclick="displayData('terrestrial')" class="active">지상파</button>
-        <button onclick="displayData('cable')">케이블</button>
-        <button onclick="displayData('comprehensive')">종편</button>
+    <div class="box">
+        <h1>📺 지상파 시청률 순위</h1>
+        <p class="update">업데이트: <span id="update-time">-</span></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>순위</th>
+                    <th>채널</th>
+                    <th>프로그램</th>
+                    <th>시청률</th>
+                </tr>
+            </thead>
+            <tbody id="list"></tbody>
+        </table>
     </div>
 
-    <table id="rating-table">
-        <thead>
-            <tr>
-                <th>순위</th>
-                <th>채널</th>
-                <th>프로그램명</th>
-                <th>시청률 (%)</th>
-            </tr>
-        </thead>
-        <tbody id="data-body">
-            </tbody>
-    </table>
-</div>
-
-<script>
-    // 향후 Python 스크립트가 생성할 data.json의 예시 구조
-    let cachedData = {};
-
-    async function loadData() {
-        try {
-            // 실제 배포 시에는 'data.json' 경로에서 불러옵니다.
-            const response = await fetch('data.json');
-            cachedData = await response.json();
-            document.getElementById('last-update').innerText = cachedData.date;
-            displayData('terrestrial'); // 초기화면: 지상파
-        } catch (e) {
-            console.error("데이터를 불러오는 데 실패했습니다.");
-        }
-    }
-
-    function displayData(category) {
-        const tbody = document.getElementById('data-body');
-        tbody.innerHTML = '';
-        
-        const items = cachedData[category] || [];
-        items.forEach(item => {
-            const row = `<tr>
-                <td>${item.rank}</td>
-                <td>${item.channel}</td>
-                <td>${item.program}</td>
-                <td>${item.rate}%</td>
-            </tr>`;
-            tbody.innerHTML += row;
-        });
-
-        // 버튼 활성화 스타일 변경
-        document.querySelectorAll('button').forEach(btn => {
-            btn.classList.remove('active');
-            if(btn.innerText.includes(category === 'terrestrial' ? '지상파' : category === 'cable' ? '케이블' : '종편')) {
-                btn.classList.add('active');
-            }
-        });
-    }
-
-    loadData();
-</script>
+    <script>
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('update-time').innerText = data.date;
+                const list = document.getElementById('list');
+                if (!data.terrestrial || data.terrestrial.length === 0) {
+                    list.innerHTML = '<tr><td colspan="4" style="text-align:center;">데이터를 불러오는 중이거나 아직 업데이트되지 않았습니다.</td></tr>';
+                    return;
+                }
+                data.terrestrial.forEach(item => {
+                    list.innerHTML += `<tr>
+                        <td>${item.rank}</td>
+                        <td>${item.channel}</td>
+                        <td>${item.program}</td>
+                        <td><b>${item.rate}%</b></td>
+                    </tr>`;
+                });
+            });
+    </script>
 </body>
 </html>
