@@ -2,15 +2,19 @@ name: Daily Ratings Update
 
 on:
   schedule:
-    - cron: '30 23 * * *' # UTC 기준 (한국 시간 오전 8시 30분)
-  workflow_dispatch: # 수동 실행 버튼 활성화
+    - cron: '30 23 * * *' # 한국 시간 오전 8시 30분
+  workflow_dispatch: # 수동 실행 버튼
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: # 권한 명시적 추가
+      contents: write
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 최신 버전 사용
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,5 +32,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
-          git commit -m "Update ratings data" || exit 0
-          git push
+          # 변경사항이 없으면 에러 없이 종료되도록 처리
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update ratings data" && git push)
