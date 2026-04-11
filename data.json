@@ -1,4 +1,125 @@
 {
-    "date": "2026-04-11 16:20",
-    "terrestrial": []
+    "date": "2026-04-11 16:26",
+    "terrestrial": [
+        {
+            "rank": "1",
+            "program": "기쁜우리좋은날",
+            "channel": "KBS1",
+            "rate": "9.4"
+        },
+        {
+            "rank": "2",
+            "program": "21세기대군부인",
+            "channel": "MBC",
+            "rate": "7.8"
+        },
+        {
+            "rank": "3",
+            "program": "KBS9시뉴스",
+            "channel": "KBS1",
+            "rate": "7.3"
+        },
+        {
+            "rank": "4",
+            "program": "인간극장",
+            "channel": "KBS1",
+            "rate": "7"
+        },
+        {
+            "rank": "5",
+            "program": "신이랑법률사무소",
+            "channel": "SBS",
+            "rate": "6.7"
+        },
+        {
+            "rank": "6",
+            "program": "MBC뉴스데스크",
+            "channel": "MBC",
+            "rate": "6.4"
+        },
+        {
+            "rank": "7",
+            "program": "나혼자산다",
+            "channel": "MBC",
+            "rate": "6.1"
+        },
+        {
+            "rank": "8",
+            "program": "아침마당",
+            "channel": "KBS1",
+            "rate": "5.5"
+        },
+        {
+            "rank": "9",
+            "program": "첫번째남자",
+            "channel": "MBC",
+            "rate": "5.2"
+        },
+        {
+            "rank": "10",
+            "program": "KBS뉴스광장2부",
+            "channel": "KBS1",
+            "rate": "5.1"
+        },
+        {
+            "rank": "11",
+            "program": "6시내고향",
+            "channel": "KBS1",
+            "rate": "4.6"
+        },
+        {
+            "rank": "12",
+            "program": "KBS뉴스7",
+            "channel": "KBS1",
+            "rate": "4.3"
+        },
+        {
+            "rank": "12",
+            "program": "궁금한이야기Y",
+            "channel": "SBS",
+            "rate": "4.3"
+        },
+        {
+            "rank": "14",
+            "program": "KBS뉴스930",
+            "channel": "KBS1",
+            "rate": "3.3"
+        },
+        {
+            "rank": "15",
+            "program": "다큐3일<재>",
+            "channel": "KBS1",
+            "rate": "3.1"
+        },
+        {
+            "rank": "16",
+            "program": "KBS스포츠KBO리그(KIA:한화)",
+            "channel": "KBS2",
+            "rate": "2.9"
+        },
+        {
+            "rank": "16",
+            "program": "SBS8뉴스",
+            "channel": "SBS",
+            "rate": "2.9"
+        },
+        {
+            "rank": "18",
+            "program": "SINCE1983추적60분",
+            "channel": "KBS1",
+            "rate": "2.8"
+        },
+        {
+            "rank": "19",
+            "program": "신상출시편스토랑",
+            "channel": "KBS2",
+            "rate": "2.7"
+        },
+        {
+            "rank": "20",
+            "program": "전지적참견시점스페셜",
+            "channel": "MBC",
+            "rate": "2.5"
+        }
+    ]
 }
