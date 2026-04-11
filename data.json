@@ -1,5 +1,5 @@
 {
-    "date": "2026-04-11 16:26",
+    "date": "2026-04-11 16:32",
     "terrestrial": [
         {
             "rank": "1",
@@ -93,14 +93,14 @@
         },
         {
             "rank": "16",
-            "program": "KBS스포츠KBO리그(KIA:한화)",
-            "channel": "KBS2",
+            "program": "SBS8뉴스",
+            "channel": "SBS",
             "rate": "2.9"
         },
         {
             "rank": "16",
-            "program": "SBS8뉴스",
-            "channel": "SBS",
+            "program": "KBS스포츠KBO리그(KIA:한화)",
+            "channel": "KBS2",
             "rate": "2.9"
         },
         {
