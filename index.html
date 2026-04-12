@@ -35,7 +35,8 @@
     </div>
 
     <script>
-        fetch('data.json')
+        // 파일명 뒤에 ?v=현재시간 을 붙여서 브라우저가 매번 '새로운 파일'로 인식하게 만듭니다.
+        fetch('data.json?v=' + new Date().getTime())
             .then(res => res.json())
             .then(data => {
                 document.getElementById('time').innerText = data.date;
