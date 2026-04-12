@@ -1,5 +1,5 @@
 {
-    "date": "2026-04-12 10:49",
+    "date": "2026-04-12 10:54",
     "terrestrial": [
         {
             "rank": "1",
@@ -81,14 +81,14 @@
         },
         {
             "rank": "14",
-            "program": "불후의명곡",
-            "channel": "KBS2",
+            "program": "KBS뉴스(19:00)",
+            "channel": "KBS1",
             "rate": "3.8"
         },
         {
             "rank": "14",
-            "program": "KBS뉴스(19:00)",
-            "channel": "KBS1",
+            "program": "불후의명곡",
+            "channel": "KBS2",
             "rate": "3.8"
         },
         {
@@ -111,14 +111,14 @@
         },
         {
             "rank": "19",
-            "program": "동행",
-            "channel": "KBS1",
+            "program": "21세기대군부인<재>",
+            "channel": "MBC",
             "rate": "3.2"
         },
         {
             "rank": "19",
-            "program": "21세기대군부인<재>",
-            "channel": "MBC",
+            "program": "동행",
+            "channel": "KBS1",
             "rate": "3.2"
         }
     ]
