@@ -1,125 +1,125 @@
 {
-    "date": "2026-04-12 15:05",
+    "date": "2026-04-13 15:35",
     "terrestrial": [
         {
             "rank": "1",
             "program": "사랑을처방해드립니다",
             "channel": "KBS2",
-            "rate": "12.6"
+            "rate": "14.5"
         },
         {
             "rank": "2",
-            "program": "21세기대군부인",
-            "channel": "MBC",
-            "rate": "9.5"
+            "program": "미운우리새끼다시쓰는육아일기",
+            "channel": "SBS",
+            "rate": "9.9"
         },
         {
             "rank": "3",
-            "program": "KBS9시뉴스",
-            "channel": "KBS1",
-            "rate": "6.9"
+            "program": "1박2일",
+            "channel": "KBS2",
+            "rate": "6.2"
         },
         {
             "rank": "4",
-            "program": "신이랑법률사무소",
-            "channel": "SBS",
-            "rate": "6.6"
-        },
-        {
-            "rank": "5",
-            "program": "특파원보고세계는지금",
+            "program": "전국노래자랑",
             "channel": "KBS1",
             "rate": "5.9"
         },
         {
+            "rank": "5",
+            "program": "MBC뉴스데스크",
+            "channel": "MBC",
+            "rate": "5.8"
+        },
+        {
             "rank": "6",
-            "program": "살림하는남자들",
-            "channel": "KBS2",
-            "rate": "5.7"
+            "program": "KBS9시뉴스",
+            "channel": "KBS1",
+            "rate": "5.4"
         },
         {
             "rank": "7",
-            "program": "MBC뉴스데스크",
-            "channel": "MBC",
-            "rate": "5.5"
+            "program": "TV동물농장",
+            "channel": "SBS",
+            "rate": "4.3"
         },
         {
-            "rank": "8",
-            "program": "동네한바퀴",
-            "channel": "KBS1",
-            "rate": "5"
-        },
-        {
-            "rank": "9",
-            "program": "KBS뉴스광장2부",
-            "channel": "KBS1",
-            "rate": "4.4"
-        },
-        {
-            "rank": "10",
-            "program": "시니어토크쇼황금연못",
+            "rank": "7",
+            "program": "KBS뉴스(12:00)",
             "channel": "KBS1",
             "rate": "4.3"
         },
         {
+            "rank": "9",
+            "program": "SBS8뉴스",
+            "channel": "SBS",
+            "rate": "4"
+        },
+        {
+            "rank": "10",
+            "program": "런닝맨",
+            "channel": "SBS",
+            "rate": "3.7"
+        },
+        {
             "rank": "11",
-            "program": "남북의창",
-            "channel": "KBS1",
-            "rate": "4.2"
+            "program": "사장님귀는당나귀귀",
+            "channel": "KBS2",
+            "rate": "3.4"
         },
         {
             "rank": "12",
-            "program": "KBS뉴스(09:30)",
+            "program": "이슈PICK쌤과함께",
             "channel": "KBS1",
-            "rate": "4.1"
+            "rate": "3.2"
         },
         {
-            "rank": "13",
-            "program": "놀면뭐하니",
-            "channel": "MBC",
-            "rate": "3.9"
-        },
-        {
-            "rank": "14",
-            "program": "불후의명곡",
-            "channel": "KBS2",
-            "rate": "3.8"
+            "rank": "12",
+            "program": "특파원보고세계는지금<재>",
+            "channel": "KBS1",
+            "rate": "3.2"
         },
         {
             "rank": "14",
             "program": "KBS뉴스(19:00)",
             "channel": "KBS1",
-            "rate": "3.8"
+            "rate": "2.8"
         },
         {
-            "rank": "16",
-            "program": "그것이알고싶다",
-            "channel": "SBS",
-            "rate": "3.7"
+            "rank": "15",
+            "program": "TV쇼진품명품",
+            "channel": "KBS1",
+            "rate": "2.7"
+        },
+        {
+            "rank": "15",
+            "program": "살림하는남자들<재>",
+            "channel": "KBS2",
+            "rate": "2.7"
         },
         {
             "rank": "17",
-            "program": "걸어서세계속으로",
-            "channel": "KBS1",
-            "rate": "3.5"
-        },
-        {
-            "rank": "18",
-            "program": "신이랑법률사무소<재>",
+            "program": "맨인블랙박스스페셜",
             "channel": "SBS",
-            "rate": "3.3"
+            "rate": "2.5"
         },
         {
-            "rank": "19",
-            "program": "동행",
+            "rank": "17",
+            "program": "동네한바퀴<재>",
             "channel": "KBS1",
-            "rate": "3.2"
+            "rate": "2.5"
         },
         {
-            "rank": "19",
+            "rank": "17",
             "program": "21세기대군부인<재>",
             "channel": "MBC",
-            "rate": "3.2"
+            "rate": "2.5"
+        },
+        {
+            "rank": "17",
+            "program": "MBC스포츠KBO리그(KIA:한화)",
+            "channel": "MBC",
+            "rate": "2.5"
         }
     ]
 }
