@@ -1,125 +1,125 @@
 {
-    "date": "2026-04-13 15:35",
+    "date": "2026-04-14 15:16",
     "terrestrial": [
         {
             "rank": "1",
-            "program": "사랑을처방해드립니다",
-            "channel": "KBS2",
-            "rate": "14.5"
+            "program": "기쁜우리좋은날",
+            "channel": "KBS1",
+            "rate": "10"
         },
         {
             "rank": "2",
-            "program": "미운우리새끼다시쓰는육아일기",
-            "channel": "SBS",
-            "rate": "9.9"
+            "program": "KBS9시뉴스",
+            "channel": "KBS1",
+            "rate": "8.8"
         },
         {
             "rank": "3",
-            "program": "1박2일",
-            "channel": "KBS2",
-            "rate": "6.2"
+            "program": "인간극장",
+            "channel": "KBS1",
+            "rate": "7.4"
         },
         {
             "rank": "4",
-            "program": "전국노래자랑",
-            "channel": "KBS1",
-            "rate": "5.9"
+            "program": "붉은진주",
+            "channel": "KBS2",
+            "rate": "7.1"
         },
         {
             "rank": "5",
             "program": "MBC뉴스데스크",
             "channel": "MBC",
-            "rate": "5.8"
+            "rate": "6.8"
         },
         {
             "rank": "6",
-            "program": "KBS9시뉴스",
+            "program": "KBS뉴스광장2부",
             "channel": "KBS1",
-            "rate": "5.4"
+            "rate": "5.8"
         },
         {
             "rank": "7",
-            "program": "TV동물농장",
-            "channel": "SBS",
-            "rate": "4.3"
+            "program": "첫번째남자",
+            "channel": "MBC",
+            "rate": "5.7"
         },
         {
-            "rank": "7",
-            "program": "KBS뉴스(12:00)",
+            "rank": "8",
+            "program": "시청자주간기획아침마당",
             "channel": "KBS1",
-            "rate": "4.3"
+            "rate": "5.3"
         },
         {
             "rank": "9",
-            "program": "SBS8뉴스",
-            "channel": "SBS",
-            "rate": "4"
+            "program": "가요무대",
+            "channel": "KBS1",
+            "rate": "5.2"
         },
         {
             "rank": "10",
-            "program": "런닝맨",
-            "channel": "SBS",
-            "rate": "3.7"
+            "program": "우리말겨루기",
+            "channel": "KBS1",
+            "rate": "4.4"
         },
         {
-            "rank": "11",
-            "program": "사장님귀는당나귀귀",
-            "channel": "KBS2",
+            "rank": "10",
+            "program": "시청자주간기획6시내고향",
+            "channel": "KBS1",
+            "rate": "4.4"
+        },
+        {
+            "rank": "12",
+            "program": "생활의달인",
+            "channel": "SBS",
+            "rate": "3.5"
+        },
+        {
+            "rank": "13",
+            "program": "KBS뉴스광장1부",
+            "channel": "KBS1",
             "rate": "3.4"
         },
         {
-            "rank": "12",
-            "program": "이슈PICK쌤과함께",
-            "channel": "KBS1",
-            "rate": "3.2"
-        },
-        {
-            "rank": "12",
-            "program": "특파원보고세계는지금<재>",
-            "channel": "KBS1",
-            "rate": "3.2"
-        },
-        {
             "rank": "14",
-            "program": "KBS뉴스(19:00)",
+            "program": "KBS뉴스930",
             "channel": "KBS1",
-            "rate": "2.8"
+            "rate": "3.3"
         },
         {
             "rank": "15",
-            "program": "TV쇼진품명품",
-            "channel": "KBS1",
-            "rate": "2.7"
-        },
-        {
-            "rank": "15",
-            "program": "살림하는남자들<재>",
+            "program": "다큐3일",
             "channel": "KBS2",
-            "rate": "2.7"
+            "rate": "3.2"
         },
         {
-            "rank": "17",
-            "program": "맨인블랙박스스페셜",
-            "channel": "SBS",
-            "rate": "2.5"
-        },
-        {
-            "rank": "17",
-            "program": "동네한바퀴<재>",
+            "rank": "16",
+            "program": "KBS뉴스7",
             "channel": "KBS1",
+            "rate": "3"
+        },
+        {
+            "rank": "16",
+            "program": "SBS8뉴스",
+            "channel": "SBS",
+            "rate": "3"
+        },
+        {
+            "rank": "18",
+            "program": "2TV생생정보",
+            "channel": "KBS2",
+            "rate": "2.9"
+        },
+        {
+            "rank": "19",
+            "program": "말자쇼",
+            "channel": "KBS2",
             "rate": "2.5"
         },
         {
-            "rank": "17",
-            "program": "21세기대군부인<재>",
-            "channel": "MBC",
-            "rate": "2.5"
-        },
-        {
-            "rank": "17",
-            "program": "MBC스포츠KBO리그(KIA:한화)",
-            "channel": "MBC",
-            "rate": "2.5"
+            "rank": "20",
+            "program": "뉴스라인W",
+            "channel": "KBS1",
+            "rate": "2.4"
         }
     ]
 }
