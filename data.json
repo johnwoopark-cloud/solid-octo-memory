@@ -1,125 +1,125 @@
 {
-    "date": "2026-04-18 14:27",
+    "date": "2026-04-19 15:13",
     "terrestrial": [
         {
             "rank": "1",
-            "program": "21세기대군부인",
-            "channel": "MBC",
-            "rate": "9"
+            "program": "사랑을처방해드립니다",
+            "channel": "KBS2",
+            "rate": "13.5"
         },
         {
             "rank": "2",
-            "program": "기쁜우리좋은날",
-            "channel": "KBS1",
-            "rate": "7.6"
+            "program": "21세기대군부인",
+            "channel": "MBC",
+            "rate": "11.1"
         },
         {
             "rank": "3",
             "program": "KBS9시뉴스",
             "channel": "KBS1",
-            "rate": "7.1"
+            "rate": "6.7"
         },
         {
             "rank": "4",
-            "program": "인간극장",
-            "channel": "KBS1",
-            "rate": "7"
+            "program": "살림하는남자들",
+            "channel": "KBS2",
+            "rate": "6.1"
         },
         {
             "rank": "5",
             "program": "신이랑법률사무소",
             "channel": "SBS",
-            "rate": "6.5"
+            "rate": "6"
         },
         {
             "rank": "6",
             "program": "MBC뉴스데스크",
             "channel": "MBC",
-            "rate": "6.1"
+            "rate": "5.8"
         },
         {
             "rank": "7",
-            "program": "첫번째남자",
-            "channel": "MBC",
+            "program": "특파원보고세계는지금",
+            "channel": "KBS1",
             "rate": "5.3"
         },
         {
             "rank": "8",
-            "program": "나혼자산다",
-            "channel": "MBC",
-            "rate": "5.1"
+            "program": "동네한바퀴",
+            "channel": "KBS1",
+            "rate": "5"
         },
         {
             "rank": "9",
-            "program": "KBS뉴스광장2부",
+            "program": "시니어토크쇼황금연못",
             "channel": "KBS1",
-            "rate": "4.4"
+            "rate": "4.5"
         },
         {
             "rank": "10",
-            "program": "붉은진주스페셜",
-            "channel": "KBS2",
+            "program": "KBS뉴스광장2부",
+            "channel": "KBS1",
             "rate": "4.3"
         },
         {
-            "rank": "11",
-            "program": "시청자주간기획아침마당",
+            "rank": "10",
+            "program": "KBS뉴스(09:30)",
             "channel": "KBS1",
-            "rate": "4.2"
+            "rate": "4.3"
         },
         {
             "rank": "12",
-            "program": "시청자주간기획6시내고향",
+            "program": "남북의창",
             "channel": "KBS1",
             "rate": "3.9"
         },
         {
             "rank": "13",
-            "program": "SINCE1983추적60분",
-            "channel": "KBS1",
-            "rate": "3.1"
+            "program": "불후의명곡",
+            "channel": "KBS2",
+            "rate": "3.8"
         },
         {
             "rank": "13",
-            "program": "KBS뉴스7",
-            "channel": "KBS1",
-            "rate": "3.1"
-        },
-        {
-            "rank": "15",
-            "program": "궁금한이야기Y",
-            "channel": "SBS",
-            "rate": "3"
-        },
-        {
-            "rank": "15",
-            "program": "21세기대군부인<재>",
+            "program": "놀면뭐하니",
             "channel": "MBC",
-            "rate": "3"
+            "rate": "3.8"
+        },
+        {
+            "rank": "15",
+            "program": "걸어서세계속으로",
+            "channel": "KBS1",
+            "rate": "3.7"
+        },
+        {
+            "rank": "15",
+            "program": "전지적참견시점",
+            "channel": "MBC",
+            "rate": "3.7"
         },
         {
             "rank": "17",
-            "program": "KBS뉴스930",
-            "channel": "KBS1",
-            "rate": "2.9"
+            "program": "21세기대군부인<재>",
+            "channel": "MBC",
+            "rate": "3.5"
         },
         {
             "rank": "18",
-            "program": "SBS8뉴스",
-            "channel": "SBS",
-            "rate": "2.7"
+            "program": "동행",
+            "channel": "KBS1",
+            "rate": "3.3"
         },
         {
             "rank": "19",
-            "program": "모닝와이드2부",
+            "program": "그것이알고싶다",
             "channel": "SBS",
-            "rate": "2.2"
+            "rate": "3.1"
         },
         {
-            "rank": "19",
-            "program": "신상출시편스토랑",
-            "channel": "KBS2",
-            "rate": "2.2"
+            "rank": "20",
+            "program": "행복드림로또645",
+            "channel": "MBC",
+            "rate": "2.9"
         }
     ]
 }
