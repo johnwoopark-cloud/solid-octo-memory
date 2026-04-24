@@ -1,76 +1,76 @@
 {
-    "date": "2026-04-23 15:26",
+    "date": "2026-04-24 15:28",
     "terrestrial": [
         {
             "rank": "1",
             "program": "기쁜우리좋은날",
             "channel": "KBS1",
-            "rate": "9.6"
+            "rate": "10.1"
         },
         {
             "rank": "2",
-            "program": "KBS9시뉴스",
-            "channel": "KBS1",
-            "rate": "7.8"
+            "program": "붉은진주",
+            "channel": "KBS2",
+            "rate": "7.3"
         },
         {
             "rank": "3",
-            "program": "붉은진주",
-            "channel": "KBS2",
-            "rate": "7.2"
+            "program": "KBS9시뉴스",
+            "channel": "KBS1",
+            "rate": "7.1"
         },
         {
             "rank": "4",
-            "program": "아침마당",
+            "program": "인간극장",
             "channel": "KBS1",
-            "rate": "6.4"
+            "rate": "6"
         },
         {
             "rank": "5",
-            "program": "인간극장",
-            "channel": "KBS1",
-            "rate": "6.3"
+            "program": "MBC뉴스데스크",
+            "channel": "MBC",
+            "rate": "5.7"
         },
         {
             "rank": "6",
-            "program": "MBC뉴스데스크",
+            "program": "첫번째남자",
             "channel": "MBC",
-            "rate": "6.2"
+            "rate": "5.4"
         },
         {
             "rank": "7",
-            "program": "첫번째남자",
-            "channel": "MBC",
-            "rate": "5.2"
+            "program": "아침마당",
+            "channel": "KBS1",
+            "rate": "5.1"
         },
         {
             "rank": "8",
             "program": "KBS뉴스광장2부",
             "channel": "KBS1",
-            "rate": "4.7"
+            "rate": "4.9"
         },
         {
             "rank": "9",
             "program": "6시내고향",
             "channel": "KBS1",
-            "rate": "4.5"
+            "rate": "4.4"
         },
         {
             "rank": "10",
             "program": "KBS뉴스930",
             "channel": "KBS1",
-            "rate": "3.9"
+            "rate": "3.7"
         },
         {
             "rank": "11",
-            "program": "SBS8뉴스",
-            "channel": "SBS",
-            "rate": "3.4"
+            "program": "한국인의밥상",
+            "channel": "KBS1",
+            "rate": "3.5"
         },
         {
             "rank": "12",
-            "program": "생로병사의비밀",
-            "channel": "KBS1",
+            "program": "실화탐사대",
+            "channel": "MBC",
             "rate": "3.3"
         },
         {
@@ -81,39 +81,39 @@
         },
         {
             "rank": "14",
-            "program": "KBS뉴스7",
-            "channel": "KBS1",
+            "program": "꼬리에꼬리를무는그날이야기",
+            "channel": "SBS",
             "rate": "3"
         },
         {
             "rank": "15",
-            "program": "황금어장라디오스타",
-            "channel": "MBC",
-            "rate": "2.8"
-        },
-        {
-            "rank": "16",
-            "program": "골때리는그녀들리부트",
-            "channel": "SBS",
+            "program": "KBS뉴스광장1부",
+            "channel": "KBS1",
             "rate": "2.7"
         },
         {
             "rank": "16",
-            "program": "슈퍼맨이돌아왔다",
-            "channel": "KBS2",
-            "rate": "2.7"
-        },
-        {
-            "rank": "18",
-            "program": "2TV생생정보",
-            "channel": "KBS2",
+            "program": "KBS뉴스7",
+            "channel": "KBS1",
             "rate": "2.6"
         },
         {
-            "rank": "19",
-            "program": "KBS뉴스광장1부",
+            "rank": "16",
+            "program": "다큐인사이트(블루칼라전성시대)",
             "channel": "KBS1",
+            "rate": "2.6"
+        },
+        {
+            "rank": "18",
+            "program": "SBS8뉴스",
+            "channel": "SBS",
             "rate": "2.5"
+        },
+        {
+            "rank": "19",
+            "program": "2TV생생정보",
+            "channel": "KBS2",
+            "rate": "2.3"
         },
         {
             "rank": "20",
