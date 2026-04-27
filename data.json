@@ -1,123 +1,123 @@
 {
-    "date": "2026-04-26 15:26",
+    "date": "2026-04-27 16:56",
     "terrestrial": [
         {
             "rank": "1",
             "program": "사랑을처방해드립니다",
             "channel": "KBS2",
-            "rate": "12.7"
+            "rate": "14.9"
         },
         {
             "rank": "2",
-            "program": "21세기대군부인",
-            "channel": "MBC",
-            "rate": "11.2"
-        },
-        {
-            "rank": "3",
-            "program": "살림하는남자들",
-            "channel": "KBS2",
-            "rate": "6"
-        },
-        {
-            "rank": "3",
-            "program": "신이랑법률사무소",
+            "program": "미운우리새끼다시쓰는육아일기",
             "channel": "SBS",
-            "rate": "6"
+            "rate": "10.4"
+        },
+        {
+            "rank": "3",
+            "program": "1박2일",
+            "channel": "KBS2",
+            "rate": "7"
+        },
+        {
+            "rank": "4",
+            "program": "전국노래자랑",
+            "channel": "KBS1",
+            "rate": "6.4"
         },
         {
             "rank": "5",
             "program": "KBS9시뉴스",
             "channel": "KBS1",
-            "rate": "5.9"
+            "rate": "5.4"
         },
         {
             "rank": "6",
             "program": "MBC뉴스데스크",
             "channel": "MBC",
-            "rate": "5.7"
+            "rate": "5.3"
         },
         {
             "rank": "7",
-            "program": "놀면뭐하니",
-            "channel": "MBC",
-            "rate": "4.5"
+            "program": "KBS뉴스(12:00)",
+            "channel": "KBS1",
+            "rate": "4.7"
         },
         {
             "rank": "8",
-            "program": "시니어토크쇼황금연못",
-            "channel": "KBS1",
-            "rate": "4.4"
+            "program": "SBS8뉴스",
+            "channel": "SBS",
+            "rate": "4"
         },
         {
-            "rank": "8",
-            "program": "동네한바퀴",
-            "channel": "KBS1",
-            "rate": "4.4"
+            "rank": "9",
+            "program": "TV동물농장",
+            "channel": "SBS",
+            "rate": "3.9"
         },
         {
             "rank": "10",
-            "program": "불후의명곡",
-            "channel": "KBS2",
-            "rate": "4.3"
-        },
-        {
-            "rank": "11",
-            "program": "KBS뉴스광장2부",
-            "channel": "KBS1",
-            "rate": "4.2"
-        },
-        {
-            "rank": "11",
-            "program": "특파원보고세계는지금",
-            "channel": "KBS1",
-            "rate": "4.2"
-        },
-        {
-            "rank": "13",
-            "program": "남북의창",
-            "channel": "KBS1",
-            "rate": "4.1"
-        },
-        {
-            "rank": "13",
-            "program": "21세기대군부인<재>",
-            "channel": "MBC",
-            "rate": "4.1"
-        },
-        {
-            "rank": "15",
-            "program": "KBS뉴스(09:30)",
-            "channel": "KBS1",
-            "rate": "3.6"
-        },
-        {
-            "rank": "15",
-            "program": "그것이알고싶다",
+            "program": "런닝맨",
             "channel": "SBS",
+            "rate": "3.7"
+        },
+        {
+            "rank": "10",
+            "program": "사장님귀는당나귀귀",
+            "channel": "KBS2",
+            "rate": "3.7"
+        },
+        {
+            "rank": "10",
+            "program": "특파원보고세계는지금<재>",
+            "channel": "KBS1",
+            "rate": "3.7"
+        },
+        {
+            "rank": "13",
+            "program": "이슈PICK쌤과함께",
+            "channel": "KBS1",
             "rate": "3.6"
+        },
+        {
+            "rank": "14",
+            "program": "역사스페셜시간여행자",
+            "channel": "KBS1",
+            "rate": "3.4"
+        },
+        {
+            "rank": "14",
+            "program": "KBS뉴스(19:00)",
+            "channel": "KBS1",
+            "rate": "3.4"
+        },
+        {
+            "rank": "16",
+            "program": "살림하는남자들<재>",
+            "channel": "KBS2",
+            "rate": "3.2"
         },
         {
             "rank": "17",
-            "program": "걸어서세계속으로",
+            "program": "TV쇼진품명품",
             "channel": "KBS1",
-            "rate": "3.3"
+            "rate": "2.8"
         },
         {
-            "rank": "18",
-            "program": "전지적참견시점",
+            "rank": "17",
+            "program": "탐사기획스트레이트",
             "channel": "MBC",
             "rate": "2.8"
         },
         {
             "rank": "19",
-            "program": "동행",
-            "channel": "KBS1",
-            "rate": "2.6"
+            "program": "맨인블랙박스스페셜",
+            "channel": "SBS",
+            "rate": "2.7"
         },
         {
             "rank": "20",
-            "program": "팔도밥상",
+            "program": "다큐인사이트(블루칼라전성시대)<재>",
             "channel": "KBS1",
             "rate": "2.5"
         }
